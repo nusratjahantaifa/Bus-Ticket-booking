@@ -7,3 +7,68 @@
   font-weight: 400;
   font-style: normal; 
 }
+
+#success{
+  color:darkgreen;
+  text-align: center;
+  font-size: x-large;
+}
+.solid-separator {
+  border: none; /* Remove default border */
+  border-top: 1px solid black; 
+
+}
+.banner{
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat; 
+  width:100%;
+  height: 600px;
+  margin:20px;
+}
+ .seats{
+  display: grid;
+ grid-template-columns: repeat(10, 1fr);
+  row-gap: 20px;
+  column-gap:20px;
+
+} 
+.seats-n{
+
+  border-radius: 2px;
+text-align: center;
+background-color:bisque;
+}
+.seat-n{
+background-color: azure;
+ border-radius: 2px;
+text-align: center;
+margin: 25px;
+}
+.seat{
+  display: flex;
+  height: 30px;
+  width:50px;
+border-radius: 2px;
+margin: 20px;
+padding-left: 12px;
+background: ghostwhite;
+color:darkslategrey;
+text-align: center;
+} 
+ .flex{
+    display: flex;
+}  
+.token{
+height: fit-content;
+width: 40%;
+color:black;
+
+}
+.dotted-separator{ 
+
+  border-top: 1px solid black;  /*Add a solid top border */
+}
+.play-btn{
+border:2px solid wheat;
+
+}
